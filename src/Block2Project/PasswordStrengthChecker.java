@@ -7,6 +7,8 @@ This class has a method that checks password strength.
 
 package Block2Project;
 
+import java.util.Scanner;
+
 public class PasswordStrengthChecker {
 
     /**
@@ -45,8 +47,14 @@ public class PasswordStrengthChecker {
 
     }
 
+    /**
+     * Prompts the user to enter a password and calls the StrengthChecker method on it.
+     */
     public static void main(String[] args) {
-        System.out.println(StrengthChecker("Rkapoor15620405!"));
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter password: ");
+        String password = scanner.nextLine();
+        System.out.println(StrengthChecker(password));
     }
 
 }
