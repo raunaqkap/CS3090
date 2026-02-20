@@ -1,0 +1,43 @@
+Password Strength Checker
+Raunaq Kapoor  
+February 19, 2026
+
+
+What This Program Does:
+
+This program determines the strength of a password by checking whether it meets the following requirements:
+
+- Contains at least one uppercase letter (A–Z)
+- Contains at least one of the following special characters: ! @ # $ % & ?
+- Is at least 8 characters long
+
+The program returns a message with any requirements that aren't met or confirms the password is strong if all requirements are satisfied.
+
+How to Run:
+
+1. Open the project in a Java IDE
+2. Find the Block2Project Package
+3. Find the password strength checker class
+4. Run the main method
+5. Enter the password when prompted in the console
+
+Limitations:
+
+This tool is for educational use only and should not be used to validate sensitive passwords.
+This password checker only checks simple passwords using the following special characters:! @ # $ % & ?.
+
+
+Ethical Considerations and Responsible Use:
+
+This program was created for a school project. It is not intended for use in real applications.
+
+
+Some ways that this tool could be misused include giving users a false sense of security, using it to steal users' passwords, or using it to purposefully create weak passwords
+that circumvent the password requirements presented.
+
+Responsible Use Guidelines
+Don't use this tool as the only way of checking if a password is secure in real world applications.
+Users should know that a password that passes this password checker is not guaranteed to be secure.
+
+Citations:
+I used Claude AI to figure out how to initialize a scanner correctly. 
